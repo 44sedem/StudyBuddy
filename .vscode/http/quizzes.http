@@ -1,0 +1,19 @@
+@token = your-jwt-token-here
+
+### Create a quiz
+POST http://localhost:8000/api/v1/quizzes/
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "course_id": "your-course-id",
+  "title": "Quiz 3 - Binary Trees",
+  "scheduled_date": "2025-04-10T09:00:00",
+  "duration_minutes": 30,
+  "weight_percent": 5.0,
+  "topics_covered": "Binary Trees, BST, Tree Traversal"
+}
+
+### Get upcoming quizzes
+GET http://localhost:8000/api/v1/quizzes/upcoming?days=14
+Authorization: Bearer {{token}}

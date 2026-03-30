@@ -1,0 +1,18 @@
+### Register a new student
+POST http://localhost:8000/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "name": "Kwame Mensah",
+  "email": "kwame@university.edu.gh",
+  "password": "securepassword123"
+}
+
+### Login
+POST http://localhost:8000/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email": "kwame@university.edu.gh",
+  "password": "securepassword123"
+}
