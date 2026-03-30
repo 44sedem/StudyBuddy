@@ -1,0 +1,154 @@
+Initialized native services in: C:\Users\prest\.gradle\native
+Initialized jansi services in: C:\Users\prest\.gradle\native
+The client will now receive all logging from the daemon (pid: 17024). The daemon log file: C:\Users\prest\.gradle\daemon\9.4.1\daemon-17024.out.log
+Starting 6th build in daemon [uptime: 1 hrs 22 mins 40.126 secs, performance: 100%, GC rate: 0.00/s, heap usage: 2% of 2.6 GiB]
+Using 4 worker leases.
+Operational build model parameters: {cachingModelBuilding=false, configurationCache=false, configurationCacheDisabledReason=null, configurationCacheParallelLoad=false, configurationCacheParallelStore=false, configureOnDemand=false, invalidateCoupledProjects=false, isolatedProjects=false, modelAsProjectDependency=false, modelBuilding=false, parallelModelBuilding=false, parallelProjectConfiguration=false, parallelProjectExecution=true, resilientModelBuilding=false}
+Now considering [C:\Users\prest\Desktop\my-app] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file 'C:\Users\prest\Desktop\my-app\settings.gradle.kts'.
+Using local directory build cache for the root build (location = C:\Users\prest\.gradle\caches\build-cache-1, remove unused entries = after 7 days).
+Projects loaded. Root project using build file 'C:\Users\prest\Desktop\my-app\build.gradle.kts'.
+Included projects: [root project 'my-app', project ':composeApp', project ':shared']
+
+> Configure project :
+Evaluating root project 'my-app' using build file 'C:\Users\prest\Desktop\my-app\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.multiplatform', version: '2.0.0', apply: false]
+Resolved plugin [id: 'com.android.application', version: '8.2.2', apply: false]
+Resolved plugin [id: 'org.jetbrains.compose', version: '1.6.11', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.0', apply: false]
+
+> Configure project :composeApp
+Evaluating project ':composeApp' using build file 'C:\Users\prest\Desktop\my-app\composeApp\build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.multiplatform', version: '2.0.0']
+Resolved plugin [id: 'org.jetbrains.compose', version: '1.6.11']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.compose', version: '2.0.0']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.serialization', version: '2.0.0']
+Using Kotlin Gradle Plugin gradle85 variant
+Configure KMP resources
+Configure compose resources generation
+Configure Res class generation for commonMain
+Configure resource accessors generation for commonMain
+Configure resource accessors generation for commonTest
+Configure resource accessors generation for desktopMain
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+Configure resource accessors generation for desktopTest
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Configure resources publication for 'desktop' target
+Check that new 'org.jetbrains.kotlin.plugin.compose' was applied
+
+> Configure project :shared
+Evaluating project ':shared' using build file 'C:\Users\prest\Desktop\my-app\shared\build.gradle'.
+All projects evaluated.
+Task path ':composeApp:run' matched project ':composeApp'
+Task name matched 'run'
+Selected primary task 'run' from project :composeApp
+Tasks to be executed: [task ':composeApp:checkKotlinGradlePluginConfigurationErrors', task ':composeApp:generateComposeResClass', task ':composeApp:convertXmlValueResourcesForCommonMain', task ':composeApp:copyNonXmlValueResourcesForCommonMain', task ':composeApp:prepareComposeResourcesTaskForCommonMain', task ':composeApp:generateResourceAccessorsForCommonMain', task ':composeApp:convertXmlValueResourcesForDesktopMain', task ':composeApp:copyNonXmlValueResourcesForDesktopMain', task ':composeApp:prepareComposeResourcesTaskForDesktopMain', task ':composeApp:generateResourceAccessorsForDesktopMain', task ':composeApp:compileKotlinDesktop', task ':composeApp:desktopCopyHierarchicalMultiplatformResources', task ':composeApp:desktopProcessResources', task ':composeApp:desktopMainClasses', task ':composeApp:desktopJar', task ':composeApp:prepareAppResources', task ':composeApp:run']
+Tasks that were excluded: []
+Resolve mutations for :composeApp:checkKotlinGradlePluginConfigurationErrors (Thread[#225,included builds,5,main]) started.
+:composeApp:checkKotlinGradlePluginConfigurationErrors (Thread[#225,included builds,5,main]) started.
+
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':composeApp:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :composeApp:generateComposeResClass (Thread[#225,included builds,5,main]) started.
+:composeApp:generateComposeResClass (Thread[#225,included builds,5,main]) started.
+
+> Task :composeApp:generateComposeResClass UP-TO-DATE
+Caching disabled for task ':composeApp:generateComposeResClass' because:
+  Caching has not been enabled for the task
+Skipping task ':composeApp:generateComposeResClass' as it is up-to-date.
+Resolve mutations for :composeApp:convertXmlValueResourcesForCommonMain (Thread[#225,included builds,5,main]) started.
+:composeApp:convertXmlValueResourcesForCommonMain (Thread[#225,included builds,5,main]) started.
+
+> Task :composeApp:convertXmlValueResourcesForCommonMain NO-SOURCE
+file or directory 'C:\Users\prest\Desktop\my-app\composeApp\build\generated\compose\resourceGenerator\preparedResources\commonMain\composeResources', not found
+Skipping task ':composeApp:convertXmlValueResourcesForCommonMain' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:copyNonXmlValueResourcesForCommonMain (Thread[#225,included builds,5,main]) started.
+:composeApp:copyNonXmlValueResourcesForCommonMain (Thread[#225,included builds,5,main]) started.
+
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+file or directory 'C:\Users\prest\Desktop\my-app\composeApp\build\generated\compose\resourceGenerator\preparedResources\commonMain\composeResources', not found
+Skipping task ':composeApp:copyNonXmlValueResourcesForCommonMain' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:prepareComposeResourcesTaskForCommonMain (Thread[#225,included builds,5,main]) started.
+:composeApp:prepareComposeResourcesTaskForCommonMain (Thread[#225,included builds,5,main]) started.
+
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+Skipping task ':composeApp:prepareComposeResourcesTaskForCommonMain' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:generateResourceAccessorsForCommonMain (Thread[#225,included builds,5,main]) started.
+:composeApp:generateResourceAccessorsForCommonMain (Thread[#225,included builds,5,main]) started.
+
+> Task :composeApp:generateResourceAccessorsForCommonMain NO-SOURCE
+Skipping task ':composeApp:generateResourceAccessorsForCommonMain' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:convertXmlValueResourcesForDesktopMain (Thread[#225,included builds,5,main]) started.
+:composeApp:convertXmlValueResourcesForDesktopMain (Thread[#225,included builds,5,main]) started.
+
+> Task :composeApp:convertXmlValueResourcesForDesktopMain NO-SOURCE
+file or directory 'C:\Users\prest\Desktop\my-app\composeApp\build\generated\compose\resourceGenerator\preparedResources\desktopMain\composeResources', not found
+Skipping task ':composeApp:convertXmlValueResourcesForDesktopMain' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:copyNonXmlValueResourcesForDesktopMain (Thread[#228,Execution worker Thread 3,5,main]) started.
+:composeApp:copyNonXmlValueResourcesForDesktopMain (Thread[#228,Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:copyNonXmlValueResourcesForDesktopMain NO-SOURCE
+file or directory 'C:\Users\prest\Desktop\my-app\composeApp\build\generated\compose\resourceGenerator\preparedResources\desktopMain\composeResources', not found
+Skipping task ':composeApp:copyNonXmlValueResourcesForDesktopMain' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:prepareComposeResourcesTaskForDesktopMain (Thread[#228,Execution worker Thread 3,5,main]) started.
+:composeApp:prepareComposeResourcesTaskForDesktopMain (Thread[#228,Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:prepareComposeResourcesTaskForDesktopMain NO-SOURCE
+Skipping task ':composeApp:prepareComposeResourcesTaskForDesktopMain' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:generateResourceAccessorsForDesktopMain (Thread[#228,Execution worker Thread 3,5,main]) started.
+:composeApp:generateResourceAccessorsForDesktopMain (Thread[#228,Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:generateResourceAccessorsForDesktopMain NO-SOURCE
+Skipping task ':composeApp:generateResourceAccessorsForDesktopMain' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:compileKotlinDesktop (Thread[#228,Execution worker Thread 3,5,main]) started.
+:composeApp:compileKotlinDesktop (Thread[#228,Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:compileKotlinDesktop UP-TO-DATE
+Build cache key for task ':composeApp:compileKotlinDesktop' is f036c8f6d9bc0b02d38c112bf97e0c6f
+Skipping task ':composeApp:compileKotlinDesktop' as it is up-to-date.
+Resolve mutations for :composeApp:desktopCopyHierarchicalMultiplatformResources (Thread[#228,Execution worker Thread 3,5,main]) started.
+:composeApp:desktopCopyHierarchicalMultiplatformResources (Thread[#228,Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:desktopCopyHierarchicalMultiplatformResources UP-TO-DATE
+Caching disabled for task ':composeApp:desktopCopyHierarchicalMultiplatformResources' because:
+  Caching has been disabled for the task
+Skipping task ':composeApp:desktopCopyHierarchicalMultiplatformResources' as it is up-to-date.
+Resolve mutations for :composeApp:desktopProcessResources (Thread[#228,Execution worker Thread 3,5,main]) started.
+:composeApp:desktopProcessResources (Thread[#228,Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:desktopProcessResources UP-TO-DATE
+Caching disabled for task ':composeApp:desktopProcessResources' because:
+  Not worth caching
+Skipping task ':composeApp:desktopProcessResources' as it is up-to-date.
+Resolve mutations for :composeApp:desktopMainClasses (Thread[#228,Execution worker Thread 3,5,main]) started.
+:composeApp:desktopMainClasses (Thread[#228,Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:desktopMainClasses UP-TO-DATE
+Skipping task ':composeApp:desktopMainClasses' as it has no actions.
+Resolve mutations for :composeApp:desktopJar (Thread[#228,Execution worker Thread 3,5,main]) started.
+:composeApp:desktopJar (Thread[#228,Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:desktopJar UP-TO-DATE
+Caching disabled for task ':composeApp:desktopJar' because:
+  Not worth caching
+Skipping task ':composeApp:desktopJar' as it is up-to-date.
+Resolve mutations for :composeApp:prepareAppResources (Thread[#228,Execution worker Thread 3,5,main]) started.
+:composeApp:prepareAppResources (Thread[#228,Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:prepareAppResources NO-SOURCE
+Skipping task ':composeApp:prepareAppResources' as it has no source files and no previous output files.
+Resolve mutations for :composeApp:run (Thread[#228,Execution worker Thread 3,5,main]) started.
+:composeApp:run (Thread[#228,Execution worker Thread 3,5,main]) started.
+
+> Task :composeApp:run
+Caching disabled for task ':composeApp:run' because:
+  Gradle would require more information to cache this task
+Task ':composeApp:run' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Starting process 'command 'C:\Program Files\Java\jdk-22\bin\java.exe''. Working directory: C:\Users\prest\Desktop\my-app\composeApp Command: C:\Program Files\Java\jdk-22\bin\java.exe -Dcompose.application.configure.swing.globals=true -Dcompose.application.resources.dir=C:\Users\prest\Desktop\my-app\composeApp\build\compose\tmp\prepareAppResources -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -cp C:\Users\prest\Desktop\my-app\composeApp\build\libs\composeApp-desktop.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.material3\material3-desktop\1.6.11\aca6ea9607c8a4d9254c14b7192fdd07ea76e2cc\material3-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.desktop\desktop-jvm\1.6.11\4c88c77f0770ee2c111199047d90ed5a47e4482b\desktop-jvm-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.material\material-desktop\1.6.11\d3e4b632fadb752973fa898989e4666e986011e6\material-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.material\material-ripple-desktop\1.6.11\81d8093be11dfbc4ce334bad9bcfc237f21ed701\material-ripple-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.foundation\foundation-desktop\1.6.11\c9a646ef258f51a7be4929848e951ea02bb80ddf\foundation-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.animation\animation-desktop\1.6.11\ce21e9b6dea3019932615f2211ddec7eb4525cd6\animation-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.foundation\foundation-layout-desktop\1.6.11\da4289cf3f4f7b0ee49c7db8bd2f5db09aac6dee\foundation-layout-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.animation\animation-core-desktop\1.6.11\f6404cd973e8dc12994f487a61967aa4f8a949b4\animation-core-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.material\material-icons-core-desktop\1.6.11\47e99680d4e5f234dc4514fd12fec4daf1af4597\material-icons-core-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.ui\ui-desktop\1.6.11\aa323518f3353e2ea331e1093081329a437e60b8\ui-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.ui\ui-text-desktop\1.6.11\c84eb9f99b8492775cfc57b458a2c113b2139041\ui-text-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.ui\ui-graphics-desktop\1.6.11\9e80f1f2e3104ef38e6e274576c8162bd9854afe\ui-graphics-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.androidx.lifecycle\lifecycle-runtime-compose-desktop\2.8.0\4120374fb483acbf8077d5e43ebb74820a565ac1\lifecycle-runtime-compose-desktop-2.8.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.runtime\runtime-saveable-desktop\1.6.11\74106ad127dea1103cfa5517287147da68694e9f\runtime-saveable-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.ui\ui-unit-desktop\1.6.11\6489dd3c2b6122e1ebba9e9c1081779dc4e125ee\ui-unit-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.ui\ui-geometry-desktop\1.6.11\7eae6ed5c40e7e61eb16c2c7edfbd2019f2c239d\ui-geometry-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.ui\ui-tooling-preview-desktop\1.6.11\62232c44c61692b56d3071c29b0f9c8481b20574\ui-tooling-preview-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.runtime\runtime-desktop\1.6.11\328c18df89b7bf14a52d2d39e20065b029cdfeeb\runtime-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-client-content-negotiation-jvm\2.3.11\2f739fb5e47be0158b174fefd1bb5a827fbc3243\ktor-client-content-negotiation-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-client-okhttp-jvm\2.3.11\7f2bb0c9c918dca6ac832d710ab10ea1c9ba67af\ktor-client-okhttp-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-client-core-jvm\2.3.11\1ead4100b66a375ccc808bede2e2c1e480c015f\ktor-client-core-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-serialization-kotlinx-json-jvm\2.3.11\af0bc6f7ce125f8d3ddb0bc95273c3154447b618\ktor-serialization-kotlinx-json-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-events-jvm\2.3.11\e6a6d901927636a1fad5617397f5d40d2fc1d54b\ktor-events-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-websocket-serialization-jvm\2.3.11\195426b52d1647738a12022d1e0728326940a358\ktor-websocket-serialization-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-serialization-kotlinx-jvm\2.3.11\cfb1cc8db157f49fca372d4cf860b5dc7fe42623\ktor-serialization-kotlinx-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-serialization-jvm\2.3.11\5fd3c07683c145e49ff26d22af898178f20d813d\ktor-serialization-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-websockets-jvm\2.3.11\23bd6a7d3d1fed4ffb56a08f93e72eadb9818a1b\ktor-websockets-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-http-jvm\2.3.11\80eaa88b1c5f966ef87ca205bb05beb0e50cf99f\ktor-http-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-utils-jvm\2.3.11\db227e84b9b155891262f7376ad22b6fb9e4ae6\ktor-utils-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\io.ktor\ktor-io-jvm\2.3.11\a129eccdd57a710f402661c89498abdd52107e6a\ktor-io-jvm-2.3.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-jdk8\1.8.1\a9c5828df815ab41dd9063fda549715c41e8bfab\kotlinx-coroutines-jdk8-1.8.1.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-slf4j\1.8.1\a64ea6ebcb63208589fd45a00a1f47985ecd34c3\kotlinx-coroutines-slf4j-1.8.1.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.skiko\skiko-awt-runtime-windows-x64\0.8.4\2edf3fdbe20d02b8fa39eed2dd5e8d70647c821\skiko-awt-runtime-windows-x64-0.8.4.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.skiko\skiko-awt\0.8.4\d86c3b412d118aa62c8cdf606fc364e2cb4ff1f9\skiko-awt-0.8.4.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-runtime-desktop\2.8.0\fed8b9973735cbe77645edf153d5f7bb412bfd45\lifecycle-runtime-desktop-2.8.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common-jvm\2.8.0\7174a594afb73a9ad9ac9074ce78b94af3cc52a7\lifecycle-common-jvm-2.8.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-viewmodel-desktop\2.8.0\b7e91a95c8ed79cde23e08651bc34f3d43392f0d\lifecycle-viewmodel-desktop-2.8.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-coroutines-core-jvm\1.8.1\bb0e192bd7c2b6b8217440d36e9758e377e450\kotlinx-coroutines-core-jvm-1.8.1.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-core-jvm\1.6.3\6b6c17d0312ba7192893adea9d52959941d0119b\kotlinx-serialization-core-jvm-1.6.3.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-serialization-json-jvm\1.6.3\2241746853abf04073e3ab0dcd9e6729d363b313\kotlinx-serialization-json-jvm-1.6.3.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\4.12.0\2f4525d4a200e97e1b87449c2cd9bd2e25b7e8cd\okhttp-4.12.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk8\1.9.23\557350a0941ddfe919fd2a30d996355bebc8a3a3\kotlin-stdlib-jdk8-1.9.23.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\atomicfu-jvm\0.23.2\a4601dc42dceb031a586058e8356ff778a57dea0\atomicfu-jvm-0.23.2.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.compose.ui\ui-util-desktop\1.6.11\64039cd04d69b704a0b59a45567d2e4fc9fb0582\ui-util-desktop-1.6.11.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlinx\kotlinx-datetime-jvm\0.6.0\a6362032556c0fa4a06be6105a21e944f120fd2d\kotlinx-datetime-jvm-0.6.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib-jdk7\1.9.23\b8eca9abec56bee1d01c788e3d571114416ea56d\kotlin-stdlib-jdk7-1.9.23.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio-jvm\3.7.0\276b999b41f7dcde00054848fc53af338d86b349\okio-jvm-3.7.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\androidx.collection\collection-jvm\1.4.0\e209fb7bd1183032f55a0408121c6251a81acb49\collection-jvm-1.4.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.2.0\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\core-common-2.2.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\androidx.annotation\annotation-jvm\1.8.0\b8a16fe526014b7941c1debaccaf9c5153692dbb\annotation-jvm-1.8.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains.kotlin\kotlin-stdlib\2.0.0\b48df2c4aede9586cc931ead433bc02d6fd7879e\kotlin-stdlib-2.0.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\23.0.0\8cc20c07506ec18e0834947b84a864bfc094484e\annotations-23.0.0.jar;C:\Users\prest\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.36\6c62681a2f655b49963a5983b8b0950a6120ae14\slf4j-api-1.7.36.jar com.myapp.MainKt
+Successfully started process 'command 'C:\Program Files\Java\jdk-22\bin\java.exe''
+Terminate batch job (Y/N)? 
+^C
